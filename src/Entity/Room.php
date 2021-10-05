@@ -59,6 +59,11 @@ class Room
      */
     private $regions;
 
+    /**
+     * @ORM\Column(type="array", nullable=true)
+     */
+    private $photos = [];
+
     public function __construct()
     {
         $this->regions = new ArrayCollection();
@@ -173,6 +178,18 @@ class Room
     public function removeRegion(Region $region): self
     {
         $this->regions->removeElement($region);
+
+        return $this;
+    }
+
+    public function getPhotos(): ?array
+    {
+        return $this->photos;
+    }
+
+    public function setPhotos(?array $photos): self
+    {
+        $this->photos = $photos;
 
         return $this;
     }
