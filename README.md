@@ -20,7 +20,7 @@ Télécom SudParis
 | ajout de l'entité Client                                                                      |                      |        |                    |
 | ajout de l'entité Réservation                                                                 |                      |        |                    |
 | ajout des menus de navigation dans l'application                                              | OBLIGATOIRE          | TP 6   | :heavy_check_mark: |
-| ajout de CRUDs en "backoffice"                                                                |                      | TP 6   |                    |
+| ajout de CRUDs en "backoffice"                                                                |                      | TP 6   | :heavy_check_mark: |
 | ajout des Utiisateurs au modèle de données                                                    | FORTEMENT RECOMMANDÉ | TP 7   |                    |
 | ajout de l'authentification                                                                   | FORTEMENT RECOMMANDÉ | TP 7   |                    |
 | ajout de liens entre entités Client ou Propriétaire et Utilisateur authentifié                |                      |        |                    |
