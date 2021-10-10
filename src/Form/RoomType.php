@@ -18,10 +18,9 @@ class RoomType extends AbstractType
             ->add('superficy')
             ->add('price')
             ->add('address')
-            ->add('photos')
+            ->add('photo')
             ->add('owner')
-            ->add('regions')
-        ;
+            ->add('regions');
     }
 
     public function configureOptions(OptionsResolver $resolver)

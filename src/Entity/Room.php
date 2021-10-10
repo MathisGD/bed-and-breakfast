@@ -60,9 +60,9 @@ class Room
     private $regions;
 
     /**
-     * @ORM\Column(type="array", nullable=true)
+     * @ORM\Column(type="string", nullable=true)
      */
-    private $photos = [];
+    private $photo;
 
     public function __construct()
     {
@@ -182,14 +182,14 @@ class Room
         return $this;
     }
 
-    public function getPhotos(): ?array
+    public function getPhoto(): ?string
     {
-        return $this->photos;
+        return $this->photo;
     }
 
-    public function setPhotos(?array $photos): self
+    public function setPhoto(string $photo): self
     {
-        $this->photos = $photos;
+        $this->photo = $photo;
 
         return $this;
     }
