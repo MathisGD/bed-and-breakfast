@@ -18,7 +18,6 @@ class RoomType extends AbstractType
             ->add('superficy')
             ->add('price')
             ->add('address')
-            ->add('photo')
             ->add('owner')
             ->add('regions');
     }
