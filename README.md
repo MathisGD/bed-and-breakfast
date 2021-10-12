@@ -24,7 +24,7 @@ Télécom SudParis
 | ajout des Utiisateurs au modèle de données                                                    | FORTEMENT RECOMMANDÉ | TP 7   |                    |
 | ajout de l'authentification                                                                   | FORTEMENT RECOMMANDÉ | TP 7   |                    |
 | ajout de liens entre entités Client ou Propriétaire et Utilisateur authentifié                |                      |        |                    |
-| ajout de la gestion de la mise en ligne d'images pour des photos dans les annonces            | RECOMMANDÉ           | TP 8   |                    |
+| ajout de la gestion de la mise en ligne d'images pour des photos dans les annonces            | RECOMMANDÉ           | TP 8   | :heavy_check_mark: |
 | ajout de mise en forme avec Bootstrap (ou un autre framework CSS)                             | FORTEMENT RECOMMANDÉ | TP 6   | :heavy_check_mark: |
 | ajout d'une gestion de cycle de vie des réservations                                          |                      |        |                    |
 | ajout d'une entité Commentaire client avec son cycle de vie                                   |                      |        |                    |
