@@ -5,7 +5,7 @@
 
 {% block body %}
 	<div class="d-flex flex-column align-items-center">
-		<a class="btn btn-light align-self-start" href="{{ path('bed_and_breakfast_index') }}">back to list</a>
+		<a class="btn btn-light align-self-start m-1" href="{{ path('bed_and_breakfast_index') }}">back to list</a>
 		<h1>{{ room.summary }}</h1>
 
 		<img width="30%" src="{{ vich_uploader_asset(room, 'imageFile') }}"/>
