@@ -39,11 +39,15 @@
 			</tbody>
 		</table>
 
-		<div class="d-flex align-self-end flex-row">
+		{% if is_granted('ROLE_ADMIN') %}
 
-			<a class="btn btn-secondary mx-1" href="{{ path('bed_and_breakfast_edit', {'id': room.id}) }}">Edit</a>
+			<div class="d-flex align-self-end flex-row">
 
-			{{ include('bed_and_breakfast/_delete_form.html.twig') }}
-		</div>
+				<a class="btn btn-secondary mx-1" href="{{ path('bed_and_breakfast_edit', {'id': room.id}) }}">Edit</a>
+
+				{{ include('bed_and_breakfast/_delete_form.html.twig') }}
+			</div>
+
+		{% endif %}
 	</div>
 {% endblock %}
