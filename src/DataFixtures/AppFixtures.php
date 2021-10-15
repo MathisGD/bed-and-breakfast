@@ -34,7 +34,6 @@ class AppFixtures extends Fixture
         $room->setSuperficy(10);
         $room->setPrice(20);
         $room->setAddress("9, Rue Charles Fourier, 91000, Evry-Courcouronnes");
-        $room->setPhoto("https://www.tm-alumni.eu/medias/editor/images/7514614774_321cb936a2_o.jpg");
         //$room->addRegion($region);
         // On peut plutôt faire une référence explicite à la référence
         // enregistrée précédamment, ce qui permet d'éviter de se
