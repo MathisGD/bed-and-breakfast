@@ -9,6 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use App\Entity\Room;
 use App\Form\RoomType;
 use App\Repository\RoomRepository;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 
 /**
  * @Route("/room")
@@ -68,6 +69,7 @@ class BedAndBreakfastController extends AbstractController
 
     /**
      * @Route("/{id}/edit", name="bed_and_breakfast_edit", methods={"GET","POST"})
+     * @IsGranted("ROLE_ADMIN")
      */
     public function edit(Request $request, Room $room): Response
     {
@@ -88,6 +90,7 @@ class BedAndBreakfastController extends AbstractController
 
     /**
      * @Route("/{id}", name="bed_and_breakfast_delete", methods={"POST"})
+     * @IsGranted("ROLE_ADMIN")
      */
     public function delete(Request $request, Room $room): Response
     {
