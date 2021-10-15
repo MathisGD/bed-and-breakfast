@@ -1,8 +1,8 @@
 # Mini projet du module CSC4101
 
-Mathis Gontier Delaunay
+Mathis Gontier Delaunay - Télécom SudParis
 
-Télécom SudParis
+[GitHub repo](https://github.com/MathisGD/bed-and-breakfast)
 
 ### ToDo list du "Mini projet"
 
