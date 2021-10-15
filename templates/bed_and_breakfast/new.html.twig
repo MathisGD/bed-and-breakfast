@@ -4,9 +4,9 @@
 {% endblock %}
 
 {% block body %}
+	<a class="btn btn-light align-self-start m-1" href="{{ path('bed_and_breakfast_index') }}">back to list</a>
+
 	<h1>Create new Room</h1>
 
 	{{ include('bed_and_breakfast/_form.html.twig') }}
-
-	<a href="{{ path('bed_and_breakfast_index') }}">back to list</a>
 {% endblock %}
