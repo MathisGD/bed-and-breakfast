@@ -31,6 +31,6 @@ Télécom SudParis
 | ajout d'une modération des commentaires                                                       |                      |        |                    |
 | utilisation des messages flash pour les CRUDs                                                 |                      |        |                    |
 | ajout d'une gestion de marque-pages/panier dans le front-office                               | FORTEMENT RECOMMANDÉ | TP 7   |                    |
-| particularisation de l'affichage des pages selon le profil d'utilisateur                      | RECOMMANDÉ           | TP 7   |                    |
+| particularisation de l'affichage des pages selon le profil d'utilisateur                      | RECOMMANDÉ           | TP 7   | :heavy_check_mark: |
 | protection de l'accès aux routes interdites selon le profil                                   | FORTEMENT RECOMMANDÉ | TP 7   |                    |
 | ajout d'un formulaire dynamique pour créer plusieurs périodes d'indisponibilité simultanément |                      |        |                    |
